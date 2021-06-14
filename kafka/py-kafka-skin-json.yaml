@@ -1,0 +1,9 @@
+apiVersion: kafka.strimzi.io/v1beta1
+kind: KafkaTopic
+metadata:
+  name: py-kafka-skin-json
+  labels:
+    strimzi.io/cluster: "edh"
+spec:
+  partitions: 9
+  replicas: 1
